@@ -2,10 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useEffect } from "react";
 import grapesjs from "grapesjs";
-import "grapesjs/dist/css/grapes.min.css";
-import "grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.css";
-import "grapesjs/dist/grapes.min.js";
-import "grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.js";
+
 
 export default function Home() {
 	useEffect(() => {
